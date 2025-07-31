@@ -52,7 +52,7 @@ if file is not None:
         # --------------------------------------
         # ✅ STEP 6: Groq LLM Setup
         # --------------------------------------
-        GROQ_API_KEY = os.getenv["GROQ_API_KEY"]  # Replace with your Groq API Key
+        GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Replace with your Groq API Key
         llm = ChatGroq(
             api_key=GROQ_API_KEY,
             model="mixtral-8x7b-32768",  # Or "llama3-70b-8192", "gemma-7b-it"
