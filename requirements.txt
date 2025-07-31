@@ -4,3 +4,6 @@ langchain
 langchain-community
 python-dotenv
 langchain_groq
+transformers
+torch
+sentence-transformers
