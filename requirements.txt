@@ -7,3 +7,4 @@ langchain_groq
 transformers
 torch
 sentence-transformers
+faiss-cpu
