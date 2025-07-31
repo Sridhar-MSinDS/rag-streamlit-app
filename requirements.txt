@@ -3,4 +3,4 @@ pypdf2
 langchain
 langchain-community
 python-dotenv
-
+langchain_groq
